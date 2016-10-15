@@ -1,0 +1,5 @@
+SGBundleVersion
+
+A class which writes your current version into your app’s settings bundle.
+
+Useful for when you need to ask your user “What version are you using?”
