@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7A9548C81DB2665B00B7A3F0 /* SGBundleVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9548C61DB2665B00B7A3F0 /* SGBundleVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9548D01DB2668B00B7A3F0 /* SGBundleVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9548CE1DB2668B00B7A3F0 /* SGBundleVersion.h */; };
+		7A9548D11DB2668B00B7A3F0 /* SGBundleVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9548CF1DB2668B00B7A3F0 /* SGBundleVersion.m */; };
+		7A9548D41DB26BC900B7A3F0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548D21DB26BC900B7A3F0 /* LICENSE */; };
+		7A9548D51DB26BC900B7A3F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548D31DB26BC900B7A3F0 /* README */; };
+		B70122D3C840852316F211BF /* libPods-SGBundleVersion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F9D902798E6AE37A76B7C3 /* libPods-SGBundleVersion.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A9548C31DB2665B00B7A3F0 /* SGBundleVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGBundleVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9548C61DB2665B00B7A3F0 /* SGBundleVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGBundleVersion.h; sourceTree = "<group>"; };
 		7A9548C71DB2665B00B7A3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9548CE1DB2668B00B7A3F0 /* SGBundleVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGBundleVersion.h; sourceTree = "<group>"; };
+		7A9548CF1DB2668B00B7A3F0 /* SGBundleVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGBundleVersion.m; sourceTree = "<group>"; };
+		7A9548D21DB26BC900B7A3F0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7A9548D31DB26BC900B7A3F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		AAEB9446B974A9735EA05299 /* Pods-SGBundleVersion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGBundleVersion.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGBundleVersion/Pods-SGBundleVersion.release.xcconfig"; sourceTree = "<group>"; };
+		CC51B2C13454A070A3E62DC9 /* Pods-SGBundleVersion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGBundleVersion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGBundleVersion/Pods-SGBundleVersion.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F9D902798E6AE37A76B7C3 /* libPods-SGBundleVersion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGBundleVersion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +33,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70122D3C840852316F211BF /* libPods-SGBundleVersion.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC5ED575837F6D55D9CD657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9D902798E6AE37A76B7C3 /* libPods-SGBundleVersion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69B8AD847FA8728667693F70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC51B2C13454A070A3E62DC9 /* Pods-SGBundleVersion.debug.xcconfig */,
+				AAEB9446B974A9735EA05299 /* Pods-SGBundleVersion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A9548B91DB2665A00B7A3F0 = {
 			isa = PBXGroup;
 			children = (
+				7A9548D21DB26BC900B7A3F0 /* LICENSE */,
+				7A9548D31DB26BC900B7A3F0 /* README */,
+				7A9548CE1DB2668B00B7A3F0 /* SGBundleVersion.h */,
+				7A9548CF1DB2668B00B7A3F0 /* SGBundleVersion.m */,
 				7A9548C51DB2665B00B7A3F0 /* SGBundleVersion */,
 				7A9548C41DB2665B00B7A3F0 /* Products */,
+				69B8AD847FA8728667693F70 /* Pods */,
+				0CC5ED575837F6D55D9CD657 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9548C81DB2665B00B7A3F0 /* SGBundleVersion.h in Headers */,
+				7A9548D01DB2668B00B7A3F0 /* SGBundleVersion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A9548CB1DB2665B00B7A3F0 /* Build configuration list for PBXNativeTarget "SGBundleVersion" */;
 			buildPhases = (
+				FCE511F52A0B85F8105D5931 /* [CP] Check Pods Manifest.lock */,
 				7A9548BE1DB2665B00B7A3F0 /* Sources */,
 				7A9548BF1DB2665B00B7A3F0 /* Frameworks */,
 				7A9548C01DB2665B00B7A3F0 /* Headers */,
 				7A9548C11DB2665B00B7A3F0 /* Resources */,
+				38554F94C1B83024C7763A0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,16 +161,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9548D51DB26BC900B7A3F0 /* README in Resources */,
+				7A9548D41DB26BC900B7A3F0 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38554F94C1B83024C7763A0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGBundleVersion/Pods-SGBundleVersion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE511F52A0B85F8105D5931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A9548BE1DB2665B00B7A3F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9548D11DB2668B00B7A3F0 /* SGBundleVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +311,7 @@
 		};
 		7A9548CC1DB2665B00B7A3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC51B2C13454A070A3E62DC9 /* Pods-SGBundleVersion.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -245,6 +321,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SGBundleVersion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spookygroup.com.SGBundleVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -254,6 +331,7 @@
 		};
 		7A9548CD1DB2665B00B7A3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEB9446B974A9735EA05299 /* Pods-SGBundleVersion.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -263,6 +341,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SGBundleVersion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = spookygroup.com.SGBundleVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +368,7 @@
 				7A9548CD1DB2665B00B7A3F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
